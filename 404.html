@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farmacia si è spostata</title>
+<meta http-equiv="refresh" content="0; url=https://farmacia-dabo.github.io/">
+<link rel="canonical" href="https://farmacia-dabo.github.io/">
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;font:16px system-ui,sans-serif;background:#F3F7F7;color:#0F2A2A;text-align:center;padding:24px}a{color:#0E8F84;font-weight:600}</style>
+<script>
+(async () => {
+  try {
+    if ('serviceWorker' in navigator) for (const r of await navigator.serviceWorker.getRegistrations()) await r.unregister();
+    if (window.caches) for (const k of await caches.keys()) await caches.delete(k);
+  } catch (e) {}
+  location.replace('https://farmacia-dabo.github.io/');
+})();
+</script>
+</head>
+<body><p>Farmacia ora si trova su<br><a href="https://farmacia-dabo.github.io/">farmacia-dabo.github.io</a></p></body>
+</html>
